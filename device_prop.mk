@@ -34,3 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1
+
+#Fingerprint
+BUILD_FINGERPRINT := "motorola/albus/albus:8.0.0/OPSS27.76-12-28-15/13:user/release-keys"
